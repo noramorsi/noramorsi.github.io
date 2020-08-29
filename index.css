@@ -23,7 +23,7 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 80%;
+  max-width: 75%;
   height: auto;
 }
 #greeting {
@@ -43,11 +43,18 @@ a:hover {
   font-family: sans-serif;
   font-style: italic;
   text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px dashed lightgreen;
 }
 #logos {
   display: block;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
+}
+#email {
+  width: 36px;
+  height: auto;
+  margin-right: 20px;
 }
 #github {
   width: 32px;
