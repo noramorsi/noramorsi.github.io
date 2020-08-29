@@ -5,11 +5,11 @@ ul {
   background-color: lightgreen;
 }
 li {
-  display: inline;
+  display: inline-block;
+  padding: 15px 20px;
 }
 a {
   display: inline-block;
-  padding: 15px 20px;
   text-align: center;
   font-family: sans-serif;
   color: #383838;
@@ -19,7 +19,8 @@ a:hover {
   color: white;
   font-style: oblique;
 }
-img {
+#me {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 80%;
@@ -33,4 +34,24 @@ img {
 #about {
   font-family: sans-serif;
   text-align: center;
+}
+#disclaimer {
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+#logos {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+#github {
+  width: 32px;
+  height: auto;
+  margin-right: 20px;
+}
+#linked {
+  width: 32px;
+  height: auto;
+  filter: brightness(0%);
 }
