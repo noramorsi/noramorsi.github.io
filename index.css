@@ -49,11 +49,12 @@ a:hover {
   padding-bottom: 10px;
 }
 #logos {
+  position: absolute;
+  width: 99%;
   display: block;
   text-align: center;
   padding-top: 10px;
   border-top: 2px dashed lightgreen;
-  background-color: white;
 }
 #email {
   width: 32px;
