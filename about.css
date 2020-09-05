@@ -38,6 +38,10 @@ a:hover {
   color: lightgreen;
   text-decoration: none;
 }
+.link:hover {
+  color: darkgreen;
+  font-style: normal;
+}
 #logos {
   position: absolute;
   left: 0;
